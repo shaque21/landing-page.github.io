@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.banner-image {
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),
+                url('../spaghetti-1932466_1920.jpg')
+                no-repeat center center / cover;
+}
+.navbar .navbar-brand{
+    color: #ffc048;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    letter-spacing: 1px;
+    border: 1px solid #ffc048;
+    padding: 10px 30px;
+    transition: all 0.3s;
+}
+.navbar .navbar-brand:hover{
+    color: #fff;
+    background-color: #ffc048;
+    border: 1px solid #fff;
+}
+.signIn-btn a{
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.4s;
+    letter-spacing: 1px;
+    border: 1px solid #ffc048;
+    padding: 6px 15px;
+    transition: all 0.3s;
+    background-color: #ffc048;
+    border-radius: 8px;
+}
+.signIn-btn a:hover{
+    color: #ffc048;
+    background-color: transparent;
+    border: 1px solid #ffc048;
+}
+.navbar-nav a{
+    
+    transition: all .3s linear;
+}
+.navbar-nav a:hover{
+    width: 100% !important;
+    color: #ffc048 !important;
+}
+.banner-h3{
+    color: rgba(255,255,255,0.6);
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-h2{
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-btn{
+    padding: 15px 50px;
+    color: #ffc048;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #ffc048;
+    transition: all 0.3s linear;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    
+}
+.banner-btn:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #ffc048;
+}
+.pricing-section{
+    background-color: #f1f1f1;
+}
+.simple{
+    background-color: #ffc048;
+    color: #fff;
+}
+.card-header{
+    background-color: #ffc048;
+    color: #fff;
+    border: 1px solid #ffc048;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.card-header h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+.amount{
+    color: #ffc048;
+    font-size: 44px;
+    font-weight: 600;
+}
+.amount-month{
+    position: relative;
+    padding: 10px 30px;
+}
+.amount-month .tk{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+.plan-text i{
+    color: #ffc048;
+}
+.plan-text .text-muted{
+    font-weight: 400;
+    font-size: 14px;
+}
+.pricing-btn a{
+    padding: 10px 60px;
+    border: 1px solid #ffc048;
+    color: #ffc048;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.pricing-btn a:hover{
+    color: #fff;
+    background-color: #ffc048;
+    border: 1px solid #ffc048;
+}
+.title-text{
+    font-weight: 400;
+    font-size: 15px;
+}
+.about-us{
+    /* min-height: 70vh; */
+    padding: 50px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),
+                url('../img/coffee-g658773ab7_1920.jpg')
+                no-repeat center center / cover;  
+    background-attachment: fixed;
+}
+.about-head{
+    background-color: #fff;
+    color: #ffc048; 
+}
+.head-text{
+    color: #ffc048;
+}
+.text-para{
+    color: rgba(255,255,255,0.6);
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.do-both{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.contact-us{
+    background-color: #f1f1f1;
+}
+.drop-msg{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.custom-control{
+    padding-left: 20px;
+    border: 1px solid #ffc048;
+    border-radius: 20px;
+    width: 90%;
+
+}
+.custom-control:focus{
+    border-color: #ffc048;
+    box-shadow: none;
+}
+.text-area{
+    border: 1px solid #ffc048; 
+}
+.text-area:focus{
+    border-color: #ffc048;
+    box-shadow: none;
+    /* width: 70%; */
+}
+.contact-us .form-label{
+    margin-left: 10px !important;
+}
+.send-btn a{
+    padding: 10px 80px;
+    border: 2px solid #ffc048;
+    color: #ffc048;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+.send-btn a:hover{
+    color: #fff;
+    background-color: #ffc048;
+    border: 2px solid #ffc048;
+}
+@media screen and (max-width: 991px) {
+    .navbar-dark{
+        background-color: #000 !important;
+    }
+    .signIn-btn{
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+}
